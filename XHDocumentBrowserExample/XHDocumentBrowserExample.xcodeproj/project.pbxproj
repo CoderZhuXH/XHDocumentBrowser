@@ -13,6 +13,9 @@
 		60A9E15E202BF7B700416D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60A9E15D202BF7B700416D6A /* Assets.xcassets */; };
 		60A9E161202BF7B700416D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60A9E15F202BF7B700416D6A /* LaunchScreen.storyboard */; };
 		60A9E164202BF7B700416D6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A9E163202BF7B700416D6A /* main.m */; };
+		60A9E16D202C011000416D6A /* XHDocumentBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A9E16C202C011000416D6A /* XHDocumentBrowser.m */; };
+		60A9E170202C020000416D6A /* XHDocumentBrowserConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A9E16F202C020000416D6A /* XHDocumentBrowserConfiguration.m */; };
+		60A9E173202C024400416D6A /* XHDocumentBrowserConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A9E172202C024400416D6A /* XHDocumentBrowserConst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		60A9E160202BF7B700416D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60A9E162202BF7B700416D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60A9E163202BF7B700416D6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60A9E16B202C011000416D6A /* XHDocumentBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHDocumentBrowser.h; sourceTree = "<group>"; };
+		60A9E16C202C011000416D6A /* XHDocumentBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHDocumentBrowser.m; sourceTree = "<group>"; };
+		60A9E16E202C020000416D6A /* XHDocumentBrowserConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHDocumentBrowserConfiguration.h; sourceTree = "<group>"; };
+		60A9E16F202C020000416D6A /* XHDocumentBrowserConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHDocumentBrowserConfiguration.m; sourceTree = "<group>"; };
+		60A9E171202C024400416D6A /* XHDocumentBrowserConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHDocumentBrowserConst.h; sourceTree = "<group>"; };
+		60A9E172202C024400416D6A /* XHDocumentBrowserConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHDocumentBrowserConst.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,7 @@
 		60A9E148202BF7B700416D6A = {
 			isa = PBXGroup;
 			children = (
+				60A9E16A202C00EA00416D6A /* XHDocumentBrowser */,
 				60A9E153202BF7B700416D6A /* XHDocumentBrowserExample */,
 				60A9E152202BF7B700416D6A /* Products */,
 			);
@@ -69,6 +79,20 @@
 				60A9E163202BF7B700416D6A /* main.m */,
 			);
 			path = XHDocumentBrowserExample;
+			sourceTree = "<group>";
+		};
+		60A9E16A202C00EA00416D6A /* XHDocumentBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				60A9E16B202C011000416D6A /* XHDocumentBrowser.h */,
+				60A9E16C202C011000416D6A /* XHDocumentBrowser.m */,
+				60A9E16E202C020000416D6A /* XHDocumentBrowserConfiguration.h */,
+				60A9E16F202C020000416D6A /* XHDocumentBrowserConfiguration.m */,
+				60A9E171202C024400416D6A /* XHDocumentBrowserConst.h */,
+				60A9E172202C024400416D6A /* XHDocumentBrowserConst.m */,
+			);
+			name = XHDocumentBrowser;
+			path = ../XHDocumentBrowser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				60A9E159202BF7B700416D6A /* ViewController.m in Sources */,
+				60A9E16D202C011000416D6A /* XHDocumentBrowser.m in Sources */,
+				60A9E170202C020000416D6A /* XHDocumentBrowserConfiguration.m in Sources */,
 				60A9E164202BF7B700416D6A /* main.m in Sources */,
 				60A9E156202BF7B700416D6A /* AppDelegate.m in Sources */,
+				60A9E173202C024400416D6A /* XHDocumentBrowserConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
